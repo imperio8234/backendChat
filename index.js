@@ -26,7 +26,7 @@ const corsOptions = {
  
 const io = new Server(server, {
     cors: {
-        origin: 'http://localhost:5173', // Permitir este origen
+        origin: 'http://142.93.50.145', // Permitir este origen
         methods: ['GET', 'POST'],
         credentials: true
       }
