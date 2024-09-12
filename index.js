@@ -13,7 +13,7 @@ const server = http.createServer(app);
 
 //configuracion cors
 const corsOptions = {
-    origin: "https://chatimperio.netlify.app", 
+    origin:"http://142.93.50.145", 
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
   };
